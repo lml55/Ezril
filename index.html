@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
@@ -15,14 +16,8 @@ canvas {
 function startGame() {
     myGameArea.start();
 }
-<embed scr=ezril.xml>
-var myGameArea = {
-    canvas : document.createElement("canvas"),
-    start : function() {
-        this.canvas.width = 480;
-        this.canvas.height = 270;
-        this.context = this.canvas.getContext("2d");
-        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+
+<object width="400" height="400" data="helloworld.swf"><embed scr=ezril.xml></object>
     }
 }
 
