@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<embed scr=ezril.xml>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
@@ -17,7 +16,7 @@ function startGame() {
     myGameArea.start();
 }
 
-var myGameArea = {
+var myGameArea = {<embed scr=ezril.xml>
     canvas : document.createElement("canvas"),
     start : function() {
         this.canvas.width = 480;
